@@ -5,6 +5,20 @@ h1, h2, p {
 body {
     background-color: burlywood;
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+}
+
+/*serif font added after impact font incase impact isn't available*/
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+  
+h2 {
+    font-size: 30px;
 }
 
 /*margin-auto to center #menu within body*/
@@ -14,6 +28,8 @@ body {
     background-color: burlywood;
     margin-right: auto;
     margin-left: auto;
+    padding: 20px;
+    max-width: 500px;
 }
 
 .flavor, .dessert {
@@ -29,4 +45,8 @@ body {
 /*puts all class items inline*/
 .item p {
     display: inline-block;
+}
+
+.established {
+    font-style: italic;
 }
