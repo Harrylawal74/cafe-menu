@@ -1,0 +1,17 @@
+h1, h2, p {
+    text-align: center;
+}
+
+body {
+    background-color: burlywood;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+/*margin-auto to center #menu within body*/
+/*use of % is percentage within parent tag so in menu's case thats 80% of body*/
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-right: auto;
+    margin-left: auto;
+}
